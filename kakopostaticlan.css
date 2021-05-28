@@ -1,0 +1,40 @@
+h2, p {
+	font-family: calibri;
+	text-align: center;
+}
+
+a {
+	font-family: calibri;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: calibri;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
